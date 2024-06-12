@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: thegobc/meubles-by-mi:latest
+          tags: thegobc/admin-meublesbymi:latest
 
       - name: SSH and update Docker Swarm service
         uses: appleboy/ssh-action@v0.1.6
