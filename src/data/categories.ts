@@ -7,7 +7,9 @@ export const categories = {
   "table-a-manger": "Table à manger",
   "table-haute-a-manger": "Table haute à manger",
   "table-basse-de-salon": "Table basse de salon",
-  tabouret: "Tabouret",
+  "tabouret-microfibre": "Tabouret microfibre",
+  "tabouret-velour": "Tabouret en velours",
+  buffet: "Buffet",
   etagere: "Étagère",
   "meuble-tv": "Meuble TV",
 };

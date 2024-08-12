@@ -124,25 +124,6 @@ const productsCollection = buildCollection<Product>({
       name: "Lien Facebook",
       dataType: "string",
     }),
-    priceOptions: buildProperty({
-      name: "Options de prix",
-      dataType: "array",
-      of: {
-        dataType: "map",
-        properties: {
-          quantity: buildProperty({
-            name: "Quantité",
-            dataType: "string",
-            validation: { required: true },
-          }),
-          price: buildProperty({
-            name: "Prix",
-            dataType: "string",
-            validation: { required: true },
-          }),
-        },
-      },
-    }),
     shippingOptions: buildProperty({
       name: "Options de livraison",
       dataType: "map",

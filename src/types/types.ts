@@ -49,7 +49,6 @@ export interface Product {
   color_images: ColorImage[];
   categories: string[];
   description: string;
-  priceOptions?: PriceRow[];
   published: boolean;
   facebookProductUrl: string;
   shippingOptions: ShippingOptions;
